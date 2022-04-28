@@ -60,6 +60,18 @@
                     <span class="sidebar-text">{% trans 'L3Harris' %}</span>
                 </a>
             </li>
+            
+            <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
+                <a href="{%url 'fga'%}" class="nav-link">
+                    <span class="sidebar-text">{% trans 'FGA' %}</span>
+                </a>
+            </li>
+            
+            <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
+                <a href="{%url 'fga'%}" class="nav-link">
+                    <span class="sidebar-text">{% trans 'LE&PARTNERS' %}</span>
+                </a>
+            </li>
 
             {% admin_get_menu as app_list %}
             {% if app_list %}
