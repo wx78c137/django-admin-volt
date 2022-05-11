@@ -43,13 +43,13 @@
             <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
                 <a href="{% url 'todayNotification' %}" class="nav-link">
                     <span class="sidebar-icon fa fa-home"></span>
-                    <span class="sidebar-text">{% trans 'Today Notification' %}</span>
+                    <span class="sidebar-text">{% trans 'TODAY NOTIFYCATION' %}</span>
                 </a>
             </li>
             
             <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
                 <a href="{%url 'training'%}" class="nav-link">
-                    <span class="sidebar-text">{% trans 'L3Harris' %}</span>
+                    <span class="sidebar-text">{% trans 'L3HARRIS' %}</span>
                 </a>
             </li>
             
@@ -66,7 +66,12 @@
             </li>
             <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
                 <a href="{%url 'supports'%}" class="nav-link">
-                    <span class="sidebar-text">{% trans 'Tư vấn mẫu' %}</span>
+                    <span class="sidebar-text">{% trans 'SUPPORT SCRIPT' %}</span>
+                </a>
+            </li>
+            <li class="nav-item {% if 'dashboard' in segment %} active {% endif %}">
+                <a href="{%url 'qna'%}" class="nav-link">
+                    <span class="sidebar-text">{% trans 'Q&A' %}</span>
                 </a>
             </li>
 
